@@ -76,3 +76,4 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 19. Add `context` to `render()`
 20. Replace placeholder inside __fortune.html__ with `{{ fortune }}`
 21. Refresh browser to see fortune
+22. Next steps, spruce up __fortune.html__ with additional HTML formatting or adding internal css. Try adding another url view for your horoscope.

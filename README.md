@@ -23,9 +23,9 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
   </head>
   <body>
 
-    <h1>Here is your fortune:</h1>
+    <h1>Here is your fortune</h1>
 
-    <p>{{fortune}}</p>
+    <p>Your fortune goes here</p>
 
   </body>
   </html>

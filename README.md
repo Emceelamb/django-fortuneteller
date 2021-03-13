@@ -6,6 +6,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 2. Add `".cc-propeller.cloud"` to `ALLOWED_HOSTS` in __settings.py__
 3. `cd` into __fortuneteller and run `python3 manage.py migrate`
 4. Start development server and test for no errors.
+
   __NOTE: Start on port 4001 with `python3 manage.py runserver 0.0.0.0:4001`__
 
 ## Start app
@@ -43,6 +44,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 12. Create `urlpatterns` list and add route to `fortune()`
 13. Import URLconf to project conf
 14. Start development server and test
+
   __NOTE: Start on port 4001 with `python3 manage.py runserver 0.0.0.0:4001`__
 
 ## Add fortunes

@@ -70,7 +70,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 18. Create context variable with `"fortune"` as a key and random fortune as a value
   ```python
   context = {
-    "fortune": fortunes(random_number)
+    "fortune": fortunes[random_number]
   }
   ```
 19. Add `context` to `render()`

@@ -17,19 +17,24 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 6. Create __templates/randomfortune__ folder
 8. Create __fortune.html__ and place provided text:
   ```html
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <title>Django Fortune Teller</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Django Fortune Teller</title>
+  <style>
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
 
-    <h1>Here is your fortune</h1>
+  <h1>Here is your fortune:</h1>
 
-    <p>Your fortune goes here</p>
+  <p>{{fortune}}</p>
 
-  </body>
-  </html>
+</body>
+</html>
   ```
 
 ## Create View

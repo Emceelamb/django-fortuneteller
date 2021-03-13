@@ -25,7 +25,7 @@ SECRET_KEY = '*d^5rk=-!lzlev0!@-dl3clk&62p%lo3y^&mz^)q%o%qo3v*=1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.cc-propeller.cloud']
+ALLOWED_HOSTS = ['.cc-propeller.cloud', 'localhost']
 
 
 # Application definition

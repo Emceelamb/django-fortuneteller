@@ -4,7 +4,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 ## Start Project
 1. `django-admin startproject fortuneteller`
 2. Add `".cc-propeller.cloud"` to `ALLOWED_HOSTS` in __settings.py__
-3. `cd` into __fortuneteller and run `python3 manage.py migrate`
+3. `cd` into __fortuneteller__ and run `python3 manage.py migrate`
 4. Start development server and test for no errors.
 
   __NOTE: Start on port 4001 with `python3 manage.py runserver 0.0.0.0:4001`__
@@ -15,7 +15,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 
 ## Create Template
 6. Create __templates/randomfortune__ folder
-8. Create __fortune.html__ and place provided text:
+8. Create __fortune.html__ and place the provided text:
   ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -81,4 +81,4 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 19. Add `context` to `render()`
 20. Replace placeholder inside __fortune.html__ with `{{ fortune }}`
 21. Refresh browser to see fortune
-22. Next steps, spruce up __fortune.html__ with additional HTML formatting or adding internal css. Try adding another url view for your horoscope.
+22. Next steps, spruce up __fortune.html__ with additional HTML formatting or adding internal css. Try adding another URL view for your horoscope.

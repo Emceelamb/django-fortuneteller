@@ -4,7 +4,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 ## Start Project
 1. `django-admin startproject fortuneteller`
 2. Add `".cc-propeller.cloud"` to `ALLOWED_HOSTS` in __settings.py__
-3. `cd` into __fortuneteller__ and run `python3 manage.py migrate`
+3. `cd` into __fortuneteller/__ and run `python3 manage.py migrate`
 4. Start development server and test for no errors.
 
   __NOTE: Start on port 4001 with `python3 manage.py runserver 0.0.0.0:4001`__
@@ -31,7 +31,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 
   <h1>Here is your fortune:</h1>
 
-  <p>{{fortune}}</p>
+  <p>Place holder for fortune</p>
 
 </body>
 </html>
@@ -47,7 +47,7 @@ Author link: [https://author.codecademy.com/content-items/e1477470374547ebd2b856
 10. Create __urls.py__ in __randomfortune/__
 11. Import `path` and view functions
 12. Create `urlpatterns` list and add route to `fortune()`
-13. Import URLconf to project conf
+13. Import app URLconf to project URLconf
 14. Start development server and test
 
   __NOTE: Start on port 4001 with `python3 manage.py runserver 0.0.0.0:4001`__
